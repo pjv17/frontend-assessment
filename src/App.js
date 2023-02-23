@@ -16,7 +16,7 @@ function App() {
     <div className="main">
       <Routes>
         <Route path="/" exact element={<Exercise1 />}></Route>
-        <Route path="/exercise-2" exact element={<Exercise2 />}></Route>
+        <Route path="exercise-2" exact element={<Exercise2 />}></Route>
       </Routes>
     </div>
   );
