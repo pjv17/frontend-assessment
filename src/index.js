@@ -7,10 +7,16 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const root = ReactDOM.createRoot(document.querySelector("#fa-assessment-e1"));
 root.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
-    <Routes>
-      <Route path="/" element={<App></App>}></Route>
-      <Route path="/exercise-2" element={<Exercise2></Exercise2>}></Route>
-    </Routes>
-  </HashRouter>
+  <React.StrictMode>
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path="/" exact element={<App></App>}></Route>
+        <Route
+          path="/exercise-2"
+          exact
+          element={<Exercise2></Exercise2>}
+        ></Route>
+      </Routes>
+    </HashRouter>
+  </React.StrictMode>
 );

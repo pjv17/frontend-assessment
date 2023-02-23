@@ -2,7 +2,7 @@
   "name": "frontend-assessment",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://pjv17.github.io/frontend-assessment/",
+  "homepage": "https://pjv17.github.io/frontend-assessment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,8 +13,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
-    "sass": "^1.58.3",
     "react-tsparticles": "^2.9.3",
+    "sass": "^1.58.3",
     "tsparticles": "^2.9.3",
     "web-vitals": "^2.1.4"
   },

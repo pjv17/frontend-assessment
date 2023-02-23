@@ -26,7 +26,10 @@ const Section = () => {
             <div className="col-content h-100 position-relative p-3 pb-5 text-center">
               <img src={ImgColumn} className="w-100" alt="img col 1" />
               <p className="py-3">Exercise 2</p>
-              <a href="/exercise-2" className="button btn position-absolute">
+              <a
+                href="/frontend-assessment/exercise-2"
+                className="button btn position-absolute"
+              >
                 READ MORE
               </a>
             </div>
