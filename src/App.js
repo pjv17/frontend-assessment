@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import "./App.scss";
-import Banner from "./components/Banner";
-import Section from "./components/Section";
+import { Routes, Route } from "react-router-dom";
+import Exercise1 from "./pages/Exercise1";
+import Exercise2 from "./pages/Exercise2";
 
 function PageTitle() {
   useEffect(() => {
@@ -13,8 +14,10 @@ function App() {
   PageTitle();
   return (
     <div className="main">
-      <Banner />
-      <Section />
+      <Routes>
+        <Route path="/" exact element={<Exercise1 />}></Route>
+        <Route path="/exercise-2" exact element={<Exercise2 />}></Route>
+      </Routes>
     </div>
   );
 }
